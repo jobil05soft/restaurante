@@ -1,41 +1,70 @@
-## Titulo
-Sistema de Reserva e Pedidos - Restaurante
+# 🍽️ Sistema de Reserva e Pedidos – Restaurante
 
-Sistema web para gerenciar reversa de mesas e pedidos de clientes em um restaurante, desenvolvido em PHP com banco de dados MySQL.
+Sistema web para gestão de **reservas de mesas** e **pedidos de clientes** em um restaurante.  
+Desenvolvido em **PHP** com **MySQL**, focado em otimizar processos internos e melhorar o atendimento.
 
-## Funcionalidades
-Cadastro de clientes
-Reserva de mesas
-Registro de pedido por mesa
-Pagamento de taxa de reserva
-Consulta de reserva e pedido em tempo real
-Área administrativa
+---
 
-## Tecnologias Aplicadas
-PHP
-MySQL
-HTML/CSS/JavaScript
-BootStrap 5
-PHPMailler
+## 🚀 Funcionalidades
 
-## Requitos
-PHP 7.4 ou superior
-MySQL 5.7+
-Servidor Local (Laragon, XAMPP)
+- 👤 Cadastro de clientes  
+- 📅 Reserva de mesas  
+- 🧾 Registro de pedidos por mesa  
+- 💸 Pagamento da taxa de reserva  
+- 🔍 Consulta de reservas e pedidos em tempo real  
+- 🛠️ Área administrativa completa  
 
-## Estrutura do Projecto
-Model - Camada de dados que alimentam as informações do sistema
-View - Apresentaçao das páginas de interação com o usuário
-Control - Intermediário entre o model e a views, define as regras de negócios
+---
 
-## Demostraçao
+## 🛠️ Tecnologias Utilizadas
 
-# Autor: Jobil Manuel
+- **PHP**
+- **MySQL**
+- **HTML / CSS / JavaScript**
+- **Bootstrap 5**
+- **PHPMailer**
 
-## Foco: Esse projecto foi desenvolvido para facilitar a gestão de reservas e pedidos no Restaurante afim de optimizar os precessos do Restaurante.
+---
 
-Deseja yer uma experiência com o sistema: clonar ()
+## 📦 Requisitos
 
-# Dados de acesso admin
-user: admin@admin.com
-pass: 123456
+- **PHP 7.4 ou superior**
+- **MySQL 5.7+**
+- **Servidor local** (Laragon, XAMPP, WAMP, etc.)
+
+---
+
+## 📁 Estrutura do Projeto (MVC)
+
+- **Model** – Responsável pela camada de dados do sistema  
+- **View** – Apresentação e interação com o usuário  
+- **Controller** – Camada intermediária que aplica regras de negócio  
+
+---
+
+## 📸 Demonstração
+
+### Tela de Login
+![Login](assets/login.png)
+
+### Painel Administrativo
+![Dashboard](assets/dashboard.png)
+
+### Sistema de Reservas
+![Reservas](assets/reservas.png)
+
+---
+
+## 🔑 Dados de Acesso (Admin)
+
+- **Usuário:** admin@admin.com  
+- **Senha:** 123456  
+
+---
+
+## 🧪 Testar o Sistema
+
+Para experimentar o sistema localmente, basta clonar este repositório:
+
+```bash
+git clone https://github.com/jobil05soft/restaurante.git
